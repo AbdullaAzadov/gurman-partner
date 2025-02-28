@@ -1,0 +1,203 @@
+// Размеры шрифтов (variant)
+
+
+// Выравнивание текста (text-align)
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.text-align-inherit {
+  text-align: inherit;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+
+// Цвета шрифтов (color)
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-gray-10 {
+  color: var(--color-gray-10);
+}
+
+.color-gray-25 {
+  color: var(--color-gray-25);
+}
+
+.color-gray-50 {
+  color: var(--color-gray-50);
+}
+
+.color-gray-75 {
+  color: var(--color-gray-75);
+}
+
+.color-gray-100 {
+  color: var(--color-gray-100);
+}
+
+
+// Толщина текста (weight)
+
+.font-weight-regular {
+  @extend %font-regular;
+}
+
+.font-weight-semi-bold {
+  @extend %font-semibold;
+}
+
+.font-weight-bold {
+  @extend %font-bold;
+}
+
+%font-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+%font-semibold {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+%font-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+
+// Размеры шрифта
+%size-xs {
+  font-size: var(--font-size-xs);
+}
+
+%size-sm {
+  font-size: var(--font-size-sm);
+}
+
+%size-sm {
+  font-size: var(--font-size-sm);
+}
+
+%size-base {
+  font-size: var(--font-size-base);
+}
+
+%size-lg {
+  font-size: var(--font-size-lg);
+}
+
+%size-xl {
+  font-size: var(--font-size-xl);
+}
+
+%size-2xl {
+  font-size: var(--font-size-2xl);
+}
+
+%size-3xl {
+  font-size: var(--font-size-3xl);
+}
+
+%size-4xl {
+  font-size: var(--font-size-4xl);
+}
+
+%size-5xl {
+  font-size: var(--font-size-5xl);
+}
+
+%size-6xl {
+  font-size: var(--font-size-6xl);
+}
+
+%size-7xl {
+  font-size: var(--font-size-7xl);
+}
+
+%size-8xl {
+  font-size: var(--font-size-8xl);
+}
+
+%size-9xl {
+  font-size: var(--font-size-9xl);
+}
+
+// Сбор классов для вариантов
+
+.size-12 {
+  @extend %size-xs;
+}
+
+.size-14 {
+  @extend %size-sm
+}
+
+.size-16 {
+  @extend %size-base;
+}
+
+.size-18 {
+  @extend %size-lg;
+}
+
+.size-20 {
+  @extend %size-xl;
+}
+
+.size-24 {
+  @extend %size-2xl;
+}
+
+.size-30 {
+  @extend %size-3xl;
+}
+
+.size-36 {
+  @extend %size-4xl;
+}
+
+.size-48 {
+  @extend %size-5xl;
+}
+
+.size-60 {
+  @extend %size-6xl;
+}
+
+.size-72 {
+  @extend %size-7xl;
+}
+
+.size-96 {
+  @extend %size-8xl;
+}
+
+.size-128 {
+  @extend %size-9xl;
+}
+

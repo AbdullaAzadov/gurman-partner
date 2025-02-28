@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 0.5rem 0;
+  background-color: #14000f;
+  @media (max-width: 1024px) {
+    padding: 0.25rem 0;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+  gap: 4rem;
+}

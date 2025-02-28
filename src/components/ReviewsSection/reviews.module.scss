@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.75rem;
+  background-color: #f3eaea;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    gap: 24px;
+  }
+  @media (max-width: 768px) {
+    gap: 16px;
+  }
+}
+
+.cardWrapper {
+  max-width: 410px;
+  border-radius: 16px;
+  background-color: var(--color-white);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  //box-shadow: 2px 5px 6px 0 #00000026;
+}
+
+.starWrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.reviewWrapper {
+  display: flex;
+}
+
+.arrowWrapper {
+  display: flex;
+  gap: 1.25rem;
+
+  & button {
+    all: unset;
+    cursor: pointer;
+  }
+}
+
+.customPrev {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  @media (max-width: 1024px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.customNext {
+  @extend .customPrev;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  gap: 2.5rem;
+
+  li {
+    cursor: pointer;
+
+    .active {
+      text-decoration: underline;
+    }
+  }
+}

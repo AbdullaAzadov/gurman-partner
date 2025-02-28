@@ -1,0 +1,16 @@
+export { default as YoutubeIcon } from "./youtube";
+export { default as EyeIcon } from "./eye";
+export { default as PhoneIcon } from "./phone";
+export { default as BurgerIcon } from "./burger";
+export { default as BurgerCloseIcon } from "./burgerClose";
+export { default as UploadToCloudIcon } from "./uploadToCloud";
+export { default as CheckIcon } from "./check";
+export { default as StatisticIcon } from "./statistic";
+export { default as NoteIcon } from "./note";
+export { default as SettingIcon } from "./setting";
+export { default as FavoriteIcon } from "./favorite";
+export { default as StarIcon } from "./star";
+export { default as ArrowLeftIcon } from "./arrowLeft";
+export { default as ArrowRightIcon } from "./arrowRight";
+export { default as ArrowDownIcon } from "./arrowDown";
+export { default as ArrowUpIcon } from "./arrowUp";

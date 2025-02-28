@@ -1,0 +1,19 @@
+.select {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: var(--color-black);
+  z-index: 1000;
+  padding: 0.5rem 0;
+
+  li {
+    padding: 0.5rem 1rem;
+  }
+}

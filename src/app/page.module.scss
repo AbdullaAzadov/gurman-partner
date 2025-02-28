@@ -1,0 +1,19 @@
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--color-bg-1);
+
+  @media (max-width: 1024px) {
+    gap: 2.5rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+
+  @media (max-width: 1024px) {
+    gap: 2.5rem;
+  }
+}

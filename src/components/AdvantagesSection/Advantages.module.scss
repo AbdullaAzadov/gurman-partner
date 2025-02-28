@@ -1,0 +1,110 @@
+.wrapper {
+  background-color: var(--color-bg-1);
+  scroll-margin-top: 120px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.advantagesWrapper {
+  display: grid;
+  gap: 2rem;
+  width: 100%;
+
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 1024px) {
+    // Планшеты (2 элемента в ряд)
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    // Мобильные (1 элемент в ряд)
+    grid-template-columns: 1fr;
+  }
+}
+
+.cardWrapper {
+  border-radius: 40px;
+  padding: 3.125rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.25rem;
+  color: var(--color-white);
+}
+
+.bonusWrapper {
+  grid-column: span 3;
+
+  @media (max-width: 1024px) {
+    grid-column: span 2; // Планшет: занимает 2 колонки
+  }
+  @media (max-width: 768px) {
+    grid-column: span 1; // Мобильные: 1 колонка
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.75rem 6.5rem;
+  border-radius: 40px;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.07);
+  border-radius: 50%;
+
+  width: 128px;
+  height: 128px;
+
+  @media (max-width: 1024px) {
+    width: 56px;
+    height: 56px;
+  }
+
+  @media (max-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.advantagesWrapper > *:nth-child(odd) {
+  background-color: var(--color-primary);
+}
+
+.advantagesWrapper > *:nth-child(even) {
+  background-color: var(--color-white);
+}
+
+.advantagesWrapper > *:nth-child(odd) .iconWrapper {
+  background-color: rgba(247, 247, 247, 0.07);
+}
+
+.advantagesWrapper > *:nth-child(even) .iconWrapper {
+  background-color: rgba(62, 9, 48, 0.07);
+}
+
+.textBonusWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 8px;
+}

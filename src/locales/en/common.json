@@ -1,0 +1,65 @@
+{
+  "leave-request": "Leave a request",
+  "hero-section": {
+    "title": "Attract more guests and increase profits with GURMAN.KZ",
+    "desc": "Connect your restaurant to our innovative loyalty platform and gain access to new customers, analytics, and convenient growth tools."
+  },
+  "advantages-section": {
+    "name": "Advantages",
+    "bonus-system-title": "Flexible bonus system",
+    "bonus-system-desc": "Attract and retain customers with various bonuses: welcome, accumulative, referral, birthday, and many more.",
+    "analytics-title": "In-depth customer analytics",
+    "analytics-desc": "Get detailed statistics: how many regular guests you have, average check, visit dynamics, and promotion effectiveness.",
+    "views-title": "Increased online visibility",
+    "views-desc": "Your restaurant will be featured in rankings, the best venues list, and recommended to platform users.",
+    "booking-title": "Digital menu and booking",
+    "booking-desc": "Customers can view your menu, place pre-orders, and book tables via an interactive hall scheme.",
+    "crm-title": "Integration with POS systems",
+    "crm-desc": "Automatic accrual and deduction of bonuses, data synchronization with CRM for convenient accounting.",
+    "reviews-title": "Review and reputation management",
+    "reviews-desc": "Monitor guest opinions, respond to reviews, and improve your restaurant’s rating.",
+    "bonus-card-title": "+Bonus: ADVERTISING SUPPORT",
+    "bonus-card-desc": "Your promotions and special offers can be promoted through push notifications and advertising campaigns within Gurman.kz!"
+  },
+  "statistics-section": {
+    "partners-title": "500+",
+    "partners-desc": "partners",
+    "clients-title": "1+",
+    "clients-desc": "clients",
+    "incomes-title": "+25%",
+    "incomes-desc": "increase in average check"
+  },
+  "news-section": {
+    "integration-title": "Gurman.kz integrates with a new POS system!",
+    "integration-desc": "Now Gurman.kz can be integrated with the new Paloma365 POS system!"
+  },
+  "our-partners": "Our partners",
+  "name-restaurant": "Restaurant name",
+  "news": "News",
+  "reviews": "Reviews",
+  "reviews-section": {
+    "1": "We've been working with Gurman.kz for several months now, and it's the best service for the restaurant business! The platform is user-friendly, helps attract new customers, and increases orders. Support is top-notch!",
+    "2": "Thanks to Gurman.kz, more people have learned about our venue, and regular customers have started ordering more frequently. Easy integration, convenient analytics tools — everything needed for a successful business!",
+    "3": "A very convenient platform for restaurants! You can easily upload a menu, track orders, and interact with customers. Lacked some flexibility in settings, but overall, we’re satisfied.",
+    "4": "Gurman.kz is a real gem! Now you can order food from your favorite restaurants in just a few clicks, without dealing with websites or calls. Everything is fast, convenient, and hassle-free.",
+    "5": "Finally, a service that cares about quality! Orders arrive on time, dishes are fresh, and the bonus program is a nice touch.",
+    "6": "Overall, it's great! Huge selection of restaurants, user-friendly interface, but sometimes there are delivery delays. Hope the service keeps improving!"
+  },
+  "certificate-owners": "Holders of restaurant certifications",
+  "join-to-us": "Join us!",
+  "placeholder": {
+    "name": "Name*",
+    "company": "Business*",
+    "number": "Phone number*"
+  },
+  "grow-with-us": "Grow your business with us!",
+  "navigation": "Navigation",
+  "main": "Home",
+  "partners": "Partners",
+  "contact": "Contact",
+  "advantages": "Advantages",
+  "contacts": "Contacts",
+  "socials": "Social media",
+  "download-our-app": "Download our app:",
+  "temp": ""
+}
