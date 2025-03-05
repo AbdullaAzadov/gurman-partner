@@ -17,34 +17,34 @@ export const Footer_PC = () => {
         <nav className={s.footerNav}>
           <div className={s.navItemLogoSection}>
             <Image src={logo_img} alt="Gurman" className={s.logo} />
-            <Typography size="24" weight="bold" asChild>
+            <Typography size="20" weight="bold" asChild>
               <h2>{t("grow-with-us")}</h2>
             </Typography>
           </div>
           <div className={s.navItem}>
-            <Typography size="24" weight="bold" asChild>
+            <Typography size="20" weight="bold" asChild>
               <nav>{t("navigation")}</nav>
             </Typography>
             <div className={s.links}>
               <a href="#main">
-                <Typography size="20">{t("main")}</Typography>
+                <Typography size="16">{t("main")}</Typography>
               </a>
               <a href="#partners">
-                <Typography size="20">{t("partners")}</Typography>
+                <Typography size="16">{t("partners")}</Typography>
               </a>
               <a href="#contacts">
-                <Typography size="20">{t("contact")}</Typography>
+                <Typography size="16">{t("contact")}</Typography>
               </a>
               <a href="#advantages">
-                <Typography size="20">{t("advantages")}</Typography>
+                <Typography size="16">{t("advantages")}</Typography>
               </a>
               <a href="#contacts">
-                <Typography size="20">{t("contacts")}</Typography>
+                <Typography size="16">{t("contacts")}</Typography>
               </a>
             </div>
           </div>
           <div className={s.navItem}>
-            <Typography size="24" weight="bold">
+            <Typography size="20" weight="bold">
               {t("socials")}
             </Typography>
             <div className={s.socials}>
@@ -74,28 +74,34 @@ export const Footer_PC = () => {
               </a>
             </div>
           </div>
-          <div className={s.navItem}>
-            <Typography size="24" weight="bold" asChild>
-              <p>{t("download-our-app")}</p>
-            </Typography>
-            <div className={s.downloadLinks}>
-              <a href="#">
-                <Image
-                  src={app_store_img}
-                  alt="Download on App Store"
-                  height={68}
-                />
-              </a>
-              <a href="#">
-                <Image
-                  src={google_play_img}
-                  alt="Download on Google"
-                  height={68}
-                />
-              </a>
-            </div>
-          </div>
         </nav>
+        <hr />
+        <div className={s.navItem}>
+          <Typography
+            size="20"
+            weight="bold"
+            asChild
+            style={{ marginBottom: 12 }}
+          >
+            <p>{t("download-our-app")}</p>
+          </Typography>
+          <div className={s.downloadLinks}>
+            <a href="#" style={{ marginRight: 12 }}>
+              <Image
+                src={app_store_img}
+                alt="Download on App Store"
+                height={68}
+              />
+            </a>
+            <a href="#">
+              <Image
+                src={google_play_img}
+                alt="Download on Google"
+                height={68}
+              />
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );

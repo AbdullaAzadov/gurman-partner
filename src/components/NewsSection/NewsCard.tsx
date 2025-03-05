@@ -15,8 +15,8 @@ export type NewsCardProps = {
 export const NewsCard: React.FC<NewsCardProps> = (props) => {
   const { imgSrc, date, title, desc } = props;
   const st = useScreenType();
-  const titleSize = st === "mobile" ? "14" : st === "tablet" ? "16" : "30";
-  const descSize = st === "mobile" ? "12" : st === "tablet" ? "16" : "20";
+  const titleSize = st === "mobile" ? "16" : st === "tablet" ? "14" : "20";
+  const descSize = st === "mobile" ? "12" : st === "tablet" ? "12" : "16";
   const dateSize = st === "desktop" ? "16" : "12";
   const { t } = useTranslation();
 

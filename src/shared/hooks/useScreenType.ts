@@ -5,7 +5,7 @@ import { TScreenTypes } from "../types/screenType";
 const getScreenType: (width: number) => TScreenTypes = (width: number) => {
   if (width <= 390) return "mobile";
   if (width <= 768) return "mobile";
-  if (width <= 1024) return "tablet";
+  if (width <= 1280) return "tablet";
   return "desktop";
 };
 

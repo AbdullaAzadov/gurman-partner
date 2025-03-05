@@ -1,22 +1,48 @@
-.container {
+.wrapper {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 3.75rem;
-}
+  gap: 40px;
+  background-color: #f3eaea;
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-
-  @media (max-width: 1024px) {
-    gap: 1rem;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    gap: 24px;
   }
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
+}
 
-  @media (max-width: 480px) {
-    grid-template-columns: repeat(1, 1fr);
+.reviewWrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.arrowWrapper {
+  display: flex;
+  gap: 1.25rem;
+
+  & button {
+    all: unset;
+    cursor: pointer;
   }
+}
+
+.customPrev {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  @media (max-width: 1280px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.customNext {
+  @extend .customPrev;
 }

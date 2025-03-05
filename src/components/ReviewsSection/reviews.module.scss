@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 3.75rem;
+  gap: 40px;
   background-color: #f3eaea;
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1280px) {
     gap: 24px;
   }
   @media (max-width: 768px) {
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  height: 100%;
 
   //box-shadow: 2px 5px 6px 0 #00000026;
 }
@@ -32,6 +33,7 @@
 
 .reviewWrapper {
   display: flex;
+  align-items: stretch;
 }
 
 .arrowWrapper {
@@ -53,7 +55,7 @@
   justify-content: center;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     width: 28px;
     height: 28px;
   }

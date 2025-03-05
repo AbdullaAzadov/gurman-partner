@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 function ContactSection() {
   const st = useScreenType();
-  const titleSize = st === "mobile" ? "16" : st === "tablet" ? "24" : "48";
+  const titleSize = st === "mobile" ? "16" : st === "tablet" ? "24" : "30";
   const { t } = useTranslation();
 
   return (

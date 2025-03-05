@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 function PartnersSection() {
   const st = useScreenType();
   const sectionTextSize =
-    st === "mobile" ? "20" : st === "tablet" ? "24" : "48";
+    st === "mobile" ? "20" : st === "tablet" ? "24" : "30";
   const { t } = useTranslation();
 
   return (

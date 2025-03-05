@@ -28,7 +28,7 @@ export const HeaderPC: FC<Props> = ({ transparentBg }) => {
           <ul className={s.menuList}>
             <Typography
               asChild
-              size={"18"}
+              size={"16"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -38,7 +38,7 @@ export const HeaderPC: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"16"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -48,7 +48,7 @@ export const HeaderPC: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"16"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -58,7 +58,7 @@ export const HeaderPC: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"16"}
               color={"white"}
               weight={"semi-bold"}
             >

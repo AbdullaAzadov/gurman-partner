@@ -17,9 +17,9 @@ import { useTranslation } from "react-i18next";
 export const AdvantagesSection = () => {
   const st = useScreenType();
   const sectionTitleSize =
-    st === "mobile" ? "20" : st === "tablet" ? "24" : "48";
-  const cardTitleSize = st === "mobile" ? "16" : st === "tablet" ? "18" : "24";
-  const cardDescSize = st === "desktop" ? "16" : "12";
+    st === "mobile" ? "20" : st === "tablet" ? "24" : "30";
+  const cardTitleSize = st === "mobile" ? "16" : st === "tablet" ? "18" : "20";
+  const cardDescSize = st === "desktop" ? "14" : "12";
   const { t } = useTranslation();
 
   return (

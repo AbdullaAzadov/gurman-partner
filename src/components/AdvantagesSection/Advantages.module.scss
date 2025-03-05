@@ -18,7 +18,7 @@
   width: 100%;
 
   grid-template-columns: repeat(3, 1fr);
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     // Планшеты (2 элемента в ряд)
     grid-template-columns: repeat(2, 1fr);
   }
@@ -30,18 +30,18 @@
 
 .cardWrapper {
   border-radius: 40px;
-  padding: 3.125rem 2rem;
+  padding: 3rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.25rem;
+  gap: 1rem;
   color: var(--color-white);
 }
 
 .bonusWrapper {
   grid-column: span 3;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     grid-column: span 2; // Планшет: занимает 2 колонки
   }
   @media (max-width: 768px) {
@@ -70,10 +70,10 @@
   background-color: rgba(247, 247, 247, 0.07);
   border-radius: 50%;
 
-  width: 128px;
-  height: 128px;
+  width: 80px;
+  height: 80px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     width: 56px;
     height: 56px;
   }

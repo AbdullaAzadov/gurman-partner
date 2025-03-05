@@ -6,8 +6,8 @@ import useScreenType from "@/shared/hooks/useScreenType";
 
 function StatisticsSection() {
   const st = useScreenType();
-  const titleSize = st === "mobile" ? "36" : st === "tablet" ? "60" : "128";
-  const descSize = st === "mobile" ? "12" : st === "tablet" ? "14" : "30";
+  const titleSize = st === "mobile" ? "30" : st === "tablet" ? "48" : "72";
+  const descSize = st === "mobile" ? "12" : st === "tablet" ? "14" : "24";
   const { t } = useTranslation();
 
   return (

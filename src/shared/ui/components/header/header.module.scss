@@ -15,14 +15,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 7.25vw;
+  padding: 24px 17.25vw;
   transition: background-color 0.2s ease-in-out;
 
-  @media (min-width: 1921px) and (max-width: 2560px) {
-    padding: 24px clamp(8.25rem, 45.625vw + -46.5rem, 26.5rem);
-  }
-  @media (min-width: 2561px) {
-    padding: 24px clamp(26.5rem, 50.625vw + -54.5rem, 67rem);
+  a {
+    font-size: 16px;
   }
 }
 
@@ -41,21 +38,28 @@
   gap: clamp(2rem, 4.2411vw + -0.7143rem, 4.375rem);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+.logo {
+  width: 180px;
+  min-width: 180px;
+  img {
+    width: 100%;
+    height: inherit;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
   .header {
-    padding: 16px 0;
+    padding: 16px 5vw;
     display: flex;
-    gap: clamp(2rem, 1.5625vw + 1rem, 2.875rem);
-    justify-content: center;
+    justify-content: space-between;
   }
 
-  //.button a {
-  //  font-size: var(--font-size-sm);
-  //  font-weight: var(--font-weight-semi-bold);
-  //}
-
-  .logo img {
+  .logo {
     width: 100px;
+    min-width: 100px;
+    img {
+      width: 100%;
+      height: inherit;
+    }
   }
 
   .menuList {

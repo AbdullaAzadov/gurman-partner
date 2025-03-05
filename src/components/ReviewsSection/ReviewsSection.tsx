@@ -16,7 +16,7 @@ import { useTranslation } from "react-i18next";
 export const ReviewsSection = () => {
   const st = useScreenType();
   const sizeText = st === "desktop" ? "16" : st === "mobile" ? "12" : "12";
-  const sizeHead = st === "desktop" ? "48" : st === "mobile" ? "20" : "24";
+  const sizeHead = st === "desktop" ? "30" : st === "mobile" ? "20" : "24";
   const iconWidth = st === "desktop" ? "13" : "7";
   const iconHeight = st === "desktop" ? "21" : "10";
   const { t } = useTranslation();
@@ -40,7 +40,7 @@ export const ReviewsSection = () => {
               slidesPerView: 1, // На мобильных - 1 слайд
               spaceBetween: 10,
             },
-            540: {
+            448: {
               slidesPerView: 2, // На планшетах - 2 слайда
               spaceBetween: 15,
             },

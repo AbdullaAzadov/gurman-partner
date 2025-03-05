@@ -10,8 +10,8 @@ import { useTranslation } from "react-i18next";
 
 export function HeroSection() {
   const st = useScreenType();
-  const titleSize = st === "mobile" ? "20" : st === "tablet" ? "24" : "48";
-  const descSize = st === "desktop" ? "24" : "12";
+  const titleSize = st === "mobile" ? "20" : st === "tablet" ? "24" : "30";
+  const descSize = st === "desktop" ? "18" : "12";
   const buttonSize = st === "desktop" ? "default" : "tablet";
   const { t } = useTranslation();
 
@@ -44,7 +44,10 @@ export function HeroSection() {
             <p>{t("hero-section.desc")}</p>
           </Typography>
           <Button variant="accent" className={s.button} size={buttonSize}>
-            <a href="#contacts" style={{ textTransform: "uppercase" }}>
+            <a
+              href="#contacts"
+              style={{ textTransform: "uppercase", fontWeight: "600" }}
+            >
               {t("leave-request")}
             </a>
           </Button>

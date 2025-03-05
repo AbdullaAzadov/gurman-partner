@@ -28,7 +28,7 @@ export const HeaderTablet: FC<Props> = ({ transparentBg }) => {
           <ul className={s.menuList}>
             <Typography
               asChild
-              size={"18"}
+              size={"14"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -38,7 +38,7 @@ export const HeaderTablet: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"14"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -48,7 +48,7 @@ export const HeaderTablet: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"14"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -58,7 +58,7 @@ export const HeaderTablet: FC<Props> = ({ transparentBg }) => {
             </Typography>
             <Typography
               asChild
-              size={"18"}
+              size={"14"}
               color={"white"}
               weight={"semi-bold"}
             >
@@ -75,7 +75,9 @@ export const HeaderTablet: FC<Props> = ({ transparentBg }) => {
                   style={{ textTransform: "uppercase" }}
                 >
                   <PhoneIcon />
-                  {t("contact")}
+                  <Typography weight="bold" color="white" size="14">
+                    {t("contact")}
+                  </Typography>
                 </a>
               </Button>
             </li>
